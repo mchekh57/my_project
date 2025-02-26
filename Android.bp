@@ -1,0 +1,6 @@
+cc_binary {
+    name: "my_daemon",
+    srcs: ["my_daemon.cpp"],
+    shared_libs: ["liblog"],
+    init_rc: ["init.my_daemon.rc"],
+}
